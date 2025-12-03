@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="lidar_process" type="sector_min_filter" name="sector_min_filter" output="screen">
+    <param name="input_topic" value="/tanwaylidar_pointcloud" />
+    <param name="output_topic" value="/min_above_floor" />
+    <param name="z_floor" value="0.10" />
+    <param name="z_ceiling" value="2.00" />
+    <param name="sectors" value="12" />
+    <param name="serial_device" value="/dev/ttyUSB0" />
+    <param name="serial_baud" value="115200" />
+  </node>
+</launch>
