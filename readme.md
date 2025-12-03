@@ -1,6 +1,7 @@
 # lidar_pointfilter
 
-系统要求: Ubuntu 20.04  
+系统要求: Ubuntu 20.04
+镜像地址: https://archive.d-robotics.cc/downloads/os_images/rdk_x3/rdk_os_2.1.1-2024-08-29/release/
 ROS 要求: ROS1 Noetic
 
 ROS安装方式:
